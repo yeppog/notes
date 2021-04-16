@@ -1,0 +1,53 @@
+\documentclass[10pt,landscape,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+%\usepackage[LY1,T1]{fontenc}
+%\usepackage{frutigernext}
+%\usepackage[lf,minionint]{MinionPro}
+\usepackage{tikz}
+\usetikzlibrary{shapes,positioning,arrows,fit,calc,graphs,graphs.standard}
+\usepackage[nosf]{kpfonts}
+\usepackage[t1]{sourcesanspro}
+\usepackage{multicol}
+\usepackage{wrapfig}
+\usepackage[top=0mm,bottom=1mm,left=0mm,right=1mm]{geometry}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{microtype}
+\usepackage{pdfpages}
+
+\let\bar\overline
+
+
+
+\begin{document}
+%\footnotesize
+\small
+\begin{multicols*}{5}
+\section{Time Complexity}
+{Master's theorem for $T(n) = aT(\frac{n}{b}) + f(n)$ where $a \geq 1$ and $b > 1$} \\
+Let $c_{crit} = log_b(a)$ and if $f(n) = \theta(n^c)$
+\begin{enumerate}
+    \item {If $c < c_{crit}$ then $T(n) = \theta(n^{c_{crit}})$} 
+    \item {If $c = c_{crit}$ then $T(n) = \theta(n^clog(n))$} 
+    \item {If $c > c_{crit}$ then $T(n) = \theta(f(n))$} 
+    \item {If $f(n) = \theta(n^{c_{crit}}log^k(n))$, then $T(n) = \theta(n^{c_{crit}}log^{k+1}(n))$} 
+
+\end{enumerate}
+
+\section{Sorting}
+\subsection*{Bubblesort}
+Time complexity: $\Omega({n}) \space \theta(n^2) \space O(n^2)$
+
+\section{Trees}
+
+\section{Hashing}
+
+\section{Heaps}
+
+\section{Graphs}
+%\input{inhalt/graphalgo}
+%\input{inhalt/bool}
+%\input{inhalt/formeln}
+\end{multicols*}
+\end{document}
