@@ -1,5 +1,7 @@
 \documentclass[10pt,landscape,a4paper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{color}
 \usepackage[ngerman]{babel}
 \usepackage[T1]{fontenc}
 %\usepackage[LY1,T1]{fontenc}
@@ -16,6 +18,31 @@
 \usepackage{microtype}
 \usepackage{pdfpages}
 
+\usepackage{graphicx}
+\graphicspath{ {./images} }
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3,
+  basicstyle = \footnotesize
+}
+
 \let\bar\overline
 
 
@@ -23,7 +50,7 @@
 \begin{document}
 %\footnotesize
 \small
-\begin{multicols*}{5}
+\begin{multicols*}{4}
 \section{Time Complexity}
 {Master's theorem for $T(n) = aT(\frac{n}{b}) + f(n)$ where $a \geq 1$ and $b > 1$} \\
 Let $c_{crit} = log_b(a)$ and if $f(n) = \theta(n^c)$
@@ -36,16 +63,109 @@ Let $c_{crit} = log_b(a)$ and if $f(n) = \theta(n^c)$
 \end{enumerate}
 
 \section{Sorting}
-\subsection*{Bubblesort}
-Time complexity: $\Omega({n}) \space \theta(n^2) \space O(n^2)$
+\subsection{Bubblesort}
+Time complexity: $\Omega({n})$ $\theta(n^2)$ $O(n^2)$ \\
+Invariant: At the end of iteration \texttt{j}, the biggest \texttt{j} items are correctly sorted in the final \texttt{j} positions of the array.
 
+\subsection{SelectionSort}
+Time complexity: $\Omega({n^2})$ $\theta(n^2)$ $O(n^2)$ \\
+Invariant: At the end of iteration \texttt{j}: the smallest \texttt{j} items are correctly sorted in the first \texttt{j} positions of the array.
+
+\subsection{InsertionSort}
+Time complexity: $\Omega({n})$ $\theta(n^2)$ $O(n^2)$ \\
+Invariant: At the end of iteration \texttt{j}: the first \texttt{j} items of the array are sorted in order.
+
+\begin{lstlisting}
+   for (x = 1 to arr.len):
+	j = x - 1
+	store = arr[x]
+	while(j >= 0 && arr[j] > store):
+		arr[j + 1] = arr [j]
+		j--
+	arr[j+1] = store
+\end{lstlisting}
+
+\subsection{QuickSort}
+Time complexity: $\Omega({nlog(n)})$ $\theta(nlog(n))$ $O(n^2)$ $O(nlog(n))$ (for paranoid QuickSort)  \\
+Invariant: For every \texttt{i < low}: \texttt{B[i] < pivot} and for every \texttt{j > high}: \texttt{B[j] > pivot}.
+Duplicates: Use three-way partition to store duplicates.
+
+\subsection{MergeSort}
+Time complexity: $\Omega({nlog(n)})$ $\theta(nlog(n))$ $O(nlog(n))$ \\
+Invariant: At the end of each loop, the subarrays are sorted.
+
+\subsection{QuickSelect}
+Time complexity: $\Omega(n)$ $\theta(n)$ $O(n^2)$ \\ 
+Invariant: For every \texttt{i < low}: \texttt{B[i] < pivot} and for every \texttt{j > high}: \texttt{B[j] > pivot}.
+
+
+\subsection{TopoSort}
+Time complexity: $O(V+E)$
+
+
+% Trees section
 \section{Trees}
+
+\subsection{Binary Search Tree (BST)}
+Only has 2 children per node. Left child is smaller than parent. Right child is larger than parent. \\
+Operations: $O(log(n))$ / $O(n)$ (balanced)
+
+\subsection{AVL Tree}
+Maximum height between two children tree is 1. \\
+Operations: $O(log(n))$ \\
+\textbf{Left Rotation:} \\
+\includegraphics[width = 6cm]{left-rotate} \\
+\textbf{Right Rotation:} \\
+\includegraphics[width = 6cm]{right-rotate} \\
+Insertion Max Rotations: 2 \\
+Deletion Max Rotations: $log(n)$ \\
+Invariant: \texttt{|height(u) - height(v)| < 2} if \texttt{v} and \texttt{u} are sibling nodes. \texttt{|height(u) - height(v)| > 0} if \texttt{u} is the parent node of \texttt{v}.
+
+\subsection{Order Statistics (Rank finding)}
+AVL Tree augmented with a \texttt{weight} property in each node. \\
+Updating weights on rotate: $O(1)$ \\
+
+\begin{lstlisting}
+    rank = weight(node.right) + 1
+    while(node != null && node.parent != null):
+	    if (node.parent.left == node):
+		    rank += weight(node.parent.right) + 1
+		    node = node.parent
+\end{lstlisting}
+
+\begin{lstlisting}
+    FindRanks(currentRank, node, targetRank):
+	    check = currentRank + weight(node.left) + 1
+	    if (check == targetRank):
+		    return node
+	    elif (check < targetRank):
+		    return FindRanks(currentRank, node.right, targetRank)
+	    else:
+		    return FindRanks(currentRank, node.left, targetRank)
+\end{lstlisting}
+
+\subsection{Interval Trees}
+Store the maximum value of entire subtree under a node as a parameter. Update \texttt{max} during rotations by taking \texttt{Math.max} of all children under the two nodes being swapped. \\
+Time complexity: $O(log(n))$ \\
+\begin{lstlisting}
+    interval-search(x)
+        c = root;
+        while (c != null and x is not in c.interval) do
+            if (c.left == null) then
+                c = c.right;
+            else if (x > c.left.max) then
+                c = c.right;
+            else c = c.left;
+                return c.interval;
+\end{lstlisting}
 
 \section{Hashing}
 
 \section{Heaps}
 
 \section{Graphs}
+
+\section{Dynamic Programming}
 %\input{inhalt/graphalgo}
 %\input{inhalt/bool}
 %\input{inhalt/formeln}
