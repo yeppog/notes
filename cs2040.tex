@@ -18,8 +18,11 @@
 \usepackage{microtype}
 \usepackage{pdfpages}
 
+
 \usepackage{graphicx}
 \graphicspath{ {./images} }
+
+\newtheorem{definition}{Definition}[section]
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -64,43 +67,43 @@ Let $c_{crit} = log_b(a)$ and if $f(n) = \theta(n^c)$
 
 \section{Sorting}
 \subsection{Bubblesort}
-Time complexity: $\Omega({n})$ $\theta(n^2)$ $O(n^2)$ \\
+\textbf{Time complexity: $\Omega({n})$ $\theta(n^2)$ $O(n^2)$} \\
 Invariant: At the end of iteration \texttt{j}, the biggest \texttt{j} items are correctly sorted in the final \texttt{j} positions of the array.
 
 \subsection{SelectionSort}
-Time complexity: $\Omega({n^2})$ $\theta(n^2)$ $O(n^2)$ \\
+\textbf{Time complexity: $\Omega({n^2})$ $\theta(n^2)$ $O(n^2)$} \\
 Invariant: At the end of iteration \texttt{j}: the smallest \texttt{j} items are correctly sorted in the first \texttt{j} positions of the array.
 
 \subsection{InsertionSort}
-Time complexity: $\Omega({n})$ $\theta(n^2)$ $O(n^2)$ \\
+\textbf{Time complexity: $\Omega({n})$ $\theta(n^2)$ $O(n^2)$} \\
 Invariant: At the end of iteration \texttt{j}: the first \texttt{j} items of the array are sorted in order.
 
-\begin{lstlisting}
-   for (x = 1 to arr.len):
-	j = x - 1
-	store = arr[x]
-	while(j >= 0 && arr[j] > store):
-		arr[j + 1] = arr [j]
-		j--
-	arr[j+1] = store
-\end{lstlisting}
+% \begin{lstlisting}
+%    for (x = 1 to arr.len):
+% 	j = x - 1
+% 	store = arr[x]
+% 	while(j >= 0 && arr[j] > store):
+% 		arr[j + 1] = arr [j]
+% 		j--
+% 	arr[j+1] = store
+% \end{lstlisting}
 
 \subsection{QuickSort}
-Time complexity: $\Omega({nlog(n)})$ $\theta(nlog(n))$ $O(n^2)$ $O(nlog(n))$ (for paranoid QuickSort)  \\
+\textbf{Time complexity: $\Omega({nlog(n)})$ $\theta(nlog(n))$ $O(n^2)$ $O(nlog(n))$ (for paranoid QuickSort)}  \\
 Invariant: For every \texttt{i < low}: \texttt{B[i] < pivot} and for every \texttt{j > high}: \texttt{B[j] > pivot}.
 Duplicates: Use three-way partition to store duplicates.
 
 \subsection{MergeSort}
-Time complexity: $\Omega({nlog(n)})$ $\theta(nlog(n))$ $O(nlog(n))$ \\
+\textbf{Time complexity: $\Omega({nlog(n)})$ $\theta(nlog(n))$ $O(nlog(n))$} \\
 Invariant: At the end of each loop, the subarrays are sorted.
 
 \subsection{QuickSelect}
-Time complexity: $\Omega(n)$ $\theta(n)$ $O(n^2)$ \\ 
+\textbf{Time complexity: $\Omega(n)$ $\theta(n)$ $O(n^2)$} \\ 
 Invariant: For every \texttt{i < low}: \texttt{B[i] < pivot} and for every \texttt{j > high}: \texttt{B[j] > pivot}.
 
 
-\subsection{TopoSort}
-Time complexity: $O(V+E)$
+%\subsection{TopoSort}
+%\textbf{Time complexity: $O(V+E)$.}
 
 
 % Trees section
@@ -120,46 +123,47 @@ Operations: $O(log(n))$ \\
 Insertion Max Rotations: 2 \\
 Deletion Max Rotations: $log(n)$ \\
 Invariant: \texttt{|height(u) - height(v)| < 2} if \texttt{v} and \texttt{u} are sibling nodes. \texttt{|height(u) - height(v)| > 0} if \texttt{u} is the parent node of \texttt{v}.
-
+% \columnbreak
 \subsection{Order Statistics (Rank finding)}
 AVL Tree augmented with a \texttt{weight} property in each node. \\
-Updating weights on rotate: $O(1)$ \\
+Updating weights on rotate: $O(1)$ 
+% \begin{lstlisting}
+%     rank = weight(node.right) + 1
+%     while(node != null && node.parent != null):
+% 	    if (node.parent.left == node):
+% 		    rank += weight(node.parent.right) + 1
+% 		    node = node.parent
 
-\begin{lstlisting}
-    rank = weight(node.right) + 1
-    while(node != null && node.parent != null):
-	    if (node.parent.left == node):
-		    rank += weight(node.parent.right) + 1
-		    node = node.parent
-
-    FindRanks(currentRank, node, targetRank):
-	    check = currentRank + weight(node.left) + 1
-	    if (check == targetRank):
-		    return node
-	    elif (check < targetRank):
-		    return FindRanks(currentRank, node.right, targetRank)
-	    else:
-		    return FindRanks(currentRank, node.left, targetRank)
-\end{lstlisting}
+%     FindRanks(currentRank, node, targetRank):
+% 	    check = currentRank + weight(node.left) + 1
+% 	    if (check == targetRank):
+% 		    return node
+% 	    elif (check < targetRank):
+% 		    return FindRanks(currentRank, node.right, targetRank)
+% 	    else:
+% 		    return FindRanks(currentRank, node.left, targetRank)
+% \end{lstlisting}
 
 \subsection{Interval Trees}
 Store the maximum value of entire subtree under a node as a parameter. Update \texttt{max} during rotations by taking \texttt{Math.max} of all children under the two nodes being swapped. \\
 \textbf{Time complexity: $O(log(n))$} \\
-\begin{lstlisting}
-    interval-search(x)
-        c = root;
-        while (c != null and x is not in c.interval) do
-            if (c.left == null) then
-                c = c.right;
-            else if (x > c.left.max) then
-                c = c.right;
-            else c = c.left;
-                return c.interval;
-\end{lstlisting}
+% \begin{lstlisting}
+%     interval-search(x)
+%         c = root;
+%         while (c != null and x is not in c.interval) do
+%             if (c.left == null) then
+%                 c = c.right;
+%             else if (x > c.left.max) then
+%                 c = c.right;
+%             else c = c.left;
+%                 return c.interval;
+% \end{lstlisting}
 
 \subsection{1D Range Finding}
 All leaves hold the value, each internal node \texttt{v} stores the \texttt{MAX} of any leaf in the left sub-tree. \\
-\includegraphics[width = 6cm]{1d-range} \\\\
+\begin{center}
+    \includegraphics[width = 4cm]{1d-range}
+\end{center}
 \textbf{Operations}: \\
 \begin{tabular}{p{2cm} p{3.5cm}}
     \verb!findSplit!        & Finds the node to start searching. \\
@@ -172,12 +176,10 @@ All leaves hold the value, each internal node \texttt{v} stores the \texttt{MAX}
     \verb!Build!    & $O(nlog(n))$ \\
     \verb!Space!    & $O(n)$ \\
 \end{tabular}
-
 \subsection{(a, b) trees}
 An (a, b) tree has a bound of $2 \le a \le \frac{b+1}{2}$.\\\\
-\textbf{Rules:}\\\\
+\textbf{Rule 1:}\\\\
 \begin{tabular}{c|c|c|c|c}
-
     Node Type   &   \multicolumn{2}{|c|}{\#Keys} &  \multicolumn{2}{|c}{\#Children} \\
     {}          &   Min     &   Max            &    Min     &   Max \\
     \hline
@@ -186,19 +188,121 @@ An (a, b) tree has a bound of $2 \le a \le \frac{b+1}{2}$.\\\\
     Internal    &   a - 1   &   b - 1           &   a       &   b   \\
     \hline
     Leaf        &   a - 1   &   b - 1           &   0       &   0   \\
-
-    
+\end{tabular} \\\\
+\textbf{Rule 2:} A \textbf{non-leaf node} must have one more child than its number of keys. \\
+\textbf{Rule 3:} All \textbf{leaf nodes} must be at the same depth (from the root). \\
+\begin{tabular}{p{1cm} p{5.5cm}}
+    \verb!search!   & Traverse from the root node and binary search the node array. ($O(log(n))$).\\
+    \verb!insert!   & Traverse from the root to find point of insertion. Split if needed ($O(log(n))$).  \\
+    \verb!delete!   & Traverse from the root to find node and delete. Sacrifice/merge/split if needed ($O(log(n))$). \\
+    \verb!split!    & Find the median element in the node array and sacrifice to the parent. The split halves are now the child of the promoted node. \\
+    \verb!merge!    & Merges two siblings. Delete the parent and add the parent to the keylist of one child. Merge the two children. \\
+    \verb!share!    & Merge and split combined. \\
 \end{tabular}
 
 \section{Hashing}
 
-\section{Heaps}
+\subsection{Hashing with Chaining}
+If a current bucket is occupied, add to the linked list in the bucket. 
+\begin{itemize}
+    \item \textbf{Insert:} $O(1 + cost(f))$ 
+    \item \textbf{Search/Delete:} $O(n + cost(f))$ where $n$ is the number of nodes. 
+    \item Expected Number of items per bucket = $\frac{n}{m}$. 
+    \item Under Simple Uniform Hashing Assumption (every key is likedly to be mapped to every permutation), $E(\text{search}) = O(1)$.
+    \item Can still add items when $m == n$ and search efficiently.
+\end{itemize}
+
+\subsection{Hashing with Open Addressing}
+If the current bucket is full, find the next available bucket (Linear Probing).
+\begin{itemize}
+    \item \textbf{Insert/Delete/Search:} $O(1)$ if $\alpha < 1$ where $\alpha = \frac{n}{m}$ where $n$ is the \#items and $m$ is \#buckets. 
+    \item When deleting a key, replace the bucket with \texttt{DELETED}. Functions will probe past \texttt{DELETED}. 
+    \item Clusters of size $\Theta(log(n))$ form when table is $\frac{1}{4}$ full. Caching of arrays make this fast.
+    \item Unable to insert and search efficiently when $m == n$.
+    \item Expected cost of operation is $\le \frac{1}{1-a}$.
+\end{itemize}
+
+\subsection{Double Hashing}
+Two ordinary hash functions $f(k)$ and $g(k)$ with new hash function:
+\begin{equation*}
+    h(k, i) = f(k) + i \cdot g(k) \; mod m
+\end{equation*}
+$g(k)$ must be relatively prime to $m$ for $h(k, i)$ to hit all buckets.
+
+\subsection{Hashcode}
+\begin{tabular}{p{1.5cm} p{4.5cm}}
+    \verb!Integer!      &   The int value itself. \\
+    \verb!Long!         &   Split the long into 32 bits, XOR. \\
+    \verb!String!       &   Iterate through each char, sum the value with an offset. \\
+\end{tabular}
+
+\subsection{Resizing}
+If $(n == m)$, then $m = 2m$ and if $(n < \frac{m}{4})$, then $m = \frac{m}{2}$. \\
+\begin{definition}
+    Operation has amortized cost $T(n)$ if for every integer $k$, the cost of $k$ operations is $\le k T(N)$.
+\end{definition}
+
+\subsection{HashSet}
+\begin{itemize}
+    \item Stores a bit instead of key.
+    \item $P(\text{false positive})$ = $1 - (1-\frac{1}{n})^n \approx 1 - (\frac{1}{e})^{\frac{n}{m}}$.
+\end{itemize}
+
+\subsection{Bloom Filter}
+\begin{itemize}
+    \item Use 2 hash functions $f(k)$ and $g(k)$. Both buckets must return \texttt{True} for a positive match.
+    \item $P(\text{false positive})$ = $(1 - \frac{1}{e}^{\frac{2n}{n}})^2$.
+    \item $P(\text{bit is 0}) = (1 - \frac{1}{m})^{kn} \approx e^{-kn/m}$.
+    \item $P(\text{collision at 1 spot}) = 1 - e^{-kn/m}$.
+    \item $P(\text{collision at 1 spot}) = (1 - e^{-kn/m})^k$
+
+\end{itemize}
 
 \section{Graphs}
+\begin{definition}
+    A graph consists of at least a node, and can consist of edges that connect nodes in the graph.
+\end{definition}
+\begin{definition}
+    A connected graph has all nodes connected by a path.
+\end{definition}
+\begin{definition}
+    The degree of a node is the number of adjacent edges on that node.
+\end{definition}
+\begin{definition}
+    The degree of a graph is the maximum number of adjacent edges in the graph.
+\end{definition}
+\begin{definition}
+    Diameter is the maximum distance between two nodes following the shortest path.
+\end{definition}
+\begin{definition}
+    Star graph has all nodes connected to a central node.
+\end{definition}
+\begin{definition}
+    Clique is a complete graph with diameter $1$ and degree $n-1$.
+\end{definition}
+\begin{definition}
+    A cycle is a connected graph with a loop. It has a diameter $\frac{n}{2}$ or $\frac{n}{2}-1$ and degree $2$.
+\end{definition}
+\begin{definition}
+    A bipartite graph is a graph with nodes divided into two sets. There are no edges between nodes of the same set.
+\end{definition}
+
+\subsection{Representation}
+\begin{itemize}
+    \item Adjacency List. Each node has a linked list of edges to other nodes. ($O(V+E)$ memory).
+    \item Adjacency Matrix. 2D array that stores path from a node to another. ($O(V^2)$ memory).
+\end{itemize}
+
+\subsection{Traversal}
+\begin{itemize}
+    \item BFS. Use a queue to explore neighbours level by level.
+    \item DFS. Use a stack to explore the maximum depth, then neighbours.
+\end{itemize}
+
+
+
+\section{Heaps}
 
 \section{Dynamic Programming}
-%\input{inhalt/graphalgo}
-%\input{inhalt/bool}
-%\input{inhalt/formeln}
 \end{multicols*}
 \end{document}

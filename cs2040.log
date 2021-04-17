@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.16)  17 APR 2021 13:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.16)  17 APR 2021 17:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1100,60 +1100,62 @@ File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks42
 \c@AM@survey=\count333
 \AM@templatesizebox=\box136
-) (c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+)
+\c@definition=\count334
+ (c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (c:/Users/jonle/Git/notes/cs2040.aux)
 \openout1 = `cs2040.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 50.
-LaTeX Font Info:    Trying to load font information for OML+jkp on input line 50.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 53.
+LaTeX Font Info:    Trying to load font information for OML+jkp on input line 53.
  (c:/texlive/2021/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 50.
-LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 50.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 53.
+LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 53.
  (c:/texlive/2021/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 50.
-LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 50.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 53.
+LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 53.
  (c:/texlive/2021/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 50.
-LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 50.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 53.
+LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 53.
  (c:/texlive/2021/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 50.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 50.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 53.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 53.
  (c:/texlive/2021/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 50.
-\c@lstlisting=\count334
+LaTeX Font Info:    ... okay on input line 53.
+\c@lstlisting=\count335
  (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count335
+\scratchcounter=\count336
 \scratchdimen=\dimen289
 \scratchbox=\box137
-\nofMPsegments=\count336
-\nofMParguments=\count337
+\nofMPsegments=\count337
+\nofMParguments=\count338
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count338
+\MPscratchCnt=\count339
 \MPscratchDim=\dimen290
-\MPnumerator=\count339
-\makeMPintoPDFobject=\count340
+\MPnumerator=\count340
+\makeMPintoPDFobject=\count341
 \everyMPtoPDFconversion=\toks44
 ) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1195,14 +1197,14 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 50.
+LaTeX Info: Redefining \microtypecontext on input line 53.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 50.
+LaTeX Info: Redefining \showhyphens on input line 53.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1217,7 +1219,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 55.
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 58.
  (c:/texlive/2021/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
@@ -1225,27 +1227,27 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `jkp' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 55.
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 58.
  (c:/texlive/2021/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 55.
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 58.
  (c:/texlive/2021/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 55.
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 58.
  (c:/texlive/2021/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 55.
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 58.
  (c:/texlive/2021/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-Underfull \hbox (badness 5022) in paragraph at lines 61--62
+Underfull \hbox (badness 5022) in paragraph at lines 64--65
 []\T1/jkp/m/n/9 (+20) If $\OML/jkp/m/it/9 f\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 n\OT1/jkp/m/n/9 (+20) ) = \OML/jkp/m/it/9 ^^R\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 n[]log[]\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 n\OT1/jkp/m/n/9 (+20) ))$\T1/jkp/m/n/9 (+20) , then $\OML/jkp/m/it/9 T\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 n\OT1/jkp/m/n/9 (+20) ) =
  []
 
-LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 68.
+LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 71.
 (c:/texlive/2021/texmf-dist/tex/latex/kpfonts/t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 )
@@ -1253,75 +1255,85 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `jkptt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 80.
- (c:/texlive/2021/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
-File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `jkp' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 <./images/left-rotate.jpg, id=4, 592.46344pt x 316.18124pt>
 File: ./images/left-rotate.jpg Graphic file (type jpg)
 <use ./images/left-rotate.jpg>
-Package pdftex.def Info: ./images/left-rotate.jpg  used on input line 117.
+Package pdftex.def Info: ./images/left-rotate.jpg  used on input line 120.
 (pdftex.def)             Requested size: 170.71652pt x 91.10643pt.
 <./images/right-rotate.jpg, id=5, 587.94656pt x 204.01219pt>
 File: ./images/right-rotate.jpg Graphic file (type jpg)
 <use ./images/right-rotate.jpg>
-Package pdftex.def Info: ./images/right-rotate.jpg  used on input line 119.
+Package pdftex.def Info: ./images/right-rotate.jpg  used on input line 122.
 (pdftex.def)             Requested size: 170.71652pt x 59.23672pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--127
+Underfull \hbox (badness 10000) in paragraph at lines 148--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--148
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
 <./images/1d-range.jpg, id=6, 555.57562pt x 391.4625pt>
 File: ./images/1d-range.jpg Graphic file (type jpg)
 <use ./images/1d-range.jpg>
-Package pdftex.def Info: ./images/1d-range.jpg  used on input line 162.
-(pdftex.def)             Requested size: 170.71652pt x 120.28888pt.
+Package pdftex.def Info: ./images/1d-range.jpg  used on input line 165.
+(pdftex.def)             Requested size: 113.81102pt x 80.1906pt.
 
-Overfull \hbox (5.10435pt too wide) in paragraph at lines 167--167
+Overfull \hbox (5.10435pt too wide) in paragraph at lines 171--171
 [][][]\T1/jkptt/m/n/9 traverseRight| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--175
+Underfull \hbox (badness 10000) in paragraph at lines 180--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--192
+Underfull \hbox (badness 10000) in paragraph at lines 180--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--192
+Underfull \hbox (badness 10000) in paragraph at lines 180--202
+
+ []
+
+
+Overfull \hbox (5.8925pt too wide) in paragraph at lines 180--202
+[] 
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 208.
+(c:/texlive/2021/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
+File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `jkp' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
 
  []
 
 [1
 
-{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Users/jonle/Git/notes/./images/left-rotate.jpg> <c:/Users/jonle/Git/notes/./images/right-rotate.jpg> <c:/Users/jonle/Git/notes/./images/1d-range.jpg>] (c:/Users/jonle/Git/notes/cs2040.aux) ) 
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Users/jonle/Git/notes/./images/left-rotate.jpg> <c:/Users/jonle/Git/notes/./images/right-rotate.jpg> <c:/Users/jonle/Git/notes/./images/1d-range.jpg>] [2] (c:/Users/jonle/Git/notes/cs2040.aux) ) 
 Here is how much of TeX's memory you used:
- 25021 strings out of 478994
- 481903 string characters out of 5862207
- 1110670 words of memory out of 5000000
- 41831 multiletter control sequences out of 15000+600000
- 474103 words of font info for 165 fonts, out of 8000000 for 9000
+ 24781 strings out of 478994
+ 480167 string characters out of 5862207
+ 1054743 words of memory out of 5000000
+ 41496 multiletter control sequences out of 15000+600000
+ 493848 words of font info for 236 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,9n,116p,495b,1490s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on c:/Users/jonle/Git/notes/cs2040.pdf (1 page, 199982 bytes).
+ 113i,9n,116p,495b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on c:/Users/jonle/Git/notes/cs2040.pdf (2 pages, 224169 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 55836 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 64028 words of extra memory for PDF output out of 74296 (max. 10000000)
 
