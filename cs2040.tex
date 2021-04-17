@@ -131,9 +131,7 @@ Updating weights on rotate: $O(1)$ \\
 	    if (node.parent.left == node):
 		    rank += weight(node.parent.right) + 1
 		    node = node.parent
-\end{lstlisting}
 
-\begin{lstlisting}
     FindRanks(currentRank, node, targetRank):
 	    check = currentRank + weight(node.left) + 1
 	    if (check == targetRank):
@@ -146,7 +144,7 @@ Updating weights on rotate: $O(1)$ \\
 
 \subsection{Interval Trees}
 Store the maximum value of entire subtree under a node as a parameter. Update \texttt{max} during rotations by taking \texttt{Math.max} of all children under the two nodes being swapped. \\
-Time complexity: $O(log(n))$ \\
+\textbf{Time complexity: $O(log(n))$} \\
 \begin{lstlisting}
     interval-search(x)
         c = root;
@@ -158,6 +156,39 @@ Time complexity: $O(log(n))$ \\
             else c = c.left;
                 return c.interval;
 \end{lstlisting}
+
+\subsection{1D Range Finding}
+All leaves hold the value, each internal node \texttt{v} stores the \texttt{MAX} of any leaf in the left sub-tree. \\
+\includegraphics[width = 6cm]{1d-range} \\\\
+\textbf{Operations}: \\
+\begin{tabular}{p{2cm} p{3.5cm}}
+    \verb!findSplit!        & Finds the node to start searching. \\
+    \verb!traverseLeft!     & Traverse the left subtree after findSplit. \\
+    \verb!traverseRight!    & Traverse the right subtree after findSplit.\\
+\end{tabular}\\
+\textbf{Complexity}: \\
+\begin{tabular}{p{2cm} p{3.5cm}}    
+    \verb!Query!    & $O(k + log(n))$ \\
+    \verb!Build!    & $O(nlog(n))$ \\
+    \verb!Space!    & $O(n)$ \\
+\end{tabular}
+
+\subsection{(a, b) trees}
+An (a, b) tree has a bound of $2 \le a \le \frac{b+1}{2}$.\\\\
+\textbf{Rules:}\\\\
+\begin{tabular}{c|c|c|c|c}
+
+    Node Type   &   \multicolumn{2}{|c|}{\#Keys} &  \multicolumn{2}{|c}{\#Children} \\
+    {}          &   Min     &   Max            &    Min     &   Max \\
+    \hline
+    Root        &   1       &   b - 1           &   2       &   b   \\
+    \hline
+    Internal    &   a - 1   &   b - 1           &   a       &   b   \\
+    \hline
+    Leaf        &   a - 1   &   b - 1           &   0       &   0   \\
+
+    
+\end{tabular}
 
 \section{Hashing}
 

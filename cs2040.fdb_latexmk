@@ -1,9 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1618594292 "c:/Users/jonle/Git/notes/cs2040.tex" "c:/Users/jonle/Git/notes/cs2040.pdf" "cs2040" 1618594295
+["pdflatex"] 1618638654 "c:/Users/jonle/Git/notes/cs2040.tex" "c:/Users/jonle/Git/notes/cs2040.pdf" "cs2040" 1618638657
+  "./images/1d-range.jpg" 1618635832 42419 280c88a859aec3c85021c57fe3c0ea47 ""
   "./images/left-rotate.jpg" 1618593347 62188 1cd2b103193c77071d1f15445d700ab2 ""
   "./images/right-rotate.jpg" 1618593090 37144 bf43e2e7ba066079ddca9334268f780a ""
-  "c:/Users/jonle/Git/notes/cs2040.aux" 1618594295 2020 fd18e05f9e4113d215a4f4897eeebd96 ""
-  "c:/Users/jonle/Git/notes/cs2040.tex" 1618594287 5647 f43d421d2f6470fe30a649b324c198b3 ""
+  "c:/Users/jonle/Git/notes/cs2040.aux" 1618638657 2234 e6f68405695e67f5f2443de2dd50d32b ""
+  "c:/Users/jonle/Git/notes/cs2040.tex" 1618638652 6886 fce788caedb344a885b9e9a08a2009b3 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1618571806 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1618572245 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1618571842 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -215,13 +216,14 @@
   "c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1618576033 5217717 b43fe545f048dd66fa410792f18dfeaf ""
   "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1618576230 2724596 96c5b2278edf3a4fa496e95eb9b79159 ""
   "c:/texlive/2021/texmf.cnf" 1618575998 713 e69b156964470283e0530f5060668171 ""
-  "cs2040.aux" 1618594295 2020 fd18e05f9e4113d215a4f4897eeebd96 "pdflatex"
-  "cs2040.tex" 1618594287 5647 f43d421d2f6470fe30a649b324c198b3 ""
+  "cs2040.aux" 1618638657 2234 e6f68405695e67f5f2443de2dd50d32b "pdflatex"
+  "cs2040.tex" 1618638652 6886 fce788caedb344a885b9e9a08a2009b3 ""
+  "images/1d-range.jpg" 1618635832 42419 280c88a859aec3c85021c57fe3c0ea47 ""
   "images/left-rotate.jpg" 1618593347 62188 1cd2b103193c77071d1f15445d700ab2 ""
   "images/right-rotate.jpg" 1618593090 37144 bf43e2e7ba066079ddca9334268f780a ""
   (generated)
+  "c:/Users/jonle/Git/notes/cs2040.pdf"
   "c:/Users/jonle/Git/notes/cs2040.log"
+  "cs2040.pdf"
   "cs2040.log"
   "cs2040.aux"
-  "c:/Users/jonle/Git/notes/cs2040.pdf"
-  "cs2040.pdf"

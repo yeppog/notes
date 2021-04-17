@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.16)  17 APR 2021 01:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.16)  17 APR 2021 13:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1277,26 +1277,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--150
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
+
+ []
+
+<./images/1d-range.jpg, id=6, 555.57562pt x 391.4625pt>
+File: ./images/1d-range.jpg Graphic file (type jpg)
+<use ./images/1d-range.jpg>
+Package pdftex.def Info: ./images/1d-range.jpg  used on input line 162.
+(pdftex.def)             Requested size: 170.71652pt x 120.28888pt.
+
+Overfull \hbox (5.10435pt too wide) in paragraph at lines 167--167
+[][][]\T1/jkptt/m/n/9 traverseRight| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--192
 
  []
 
 [1
 
-{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Users/jonle/Git/notes/./images/left-rotate.jpg> <c:/Users/jonle/Git/notes/./images/right-rotate.jpg>] (c:/Users/jonle/Git/notes/cs2040.aux) ) 
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Users/jonle/Git/notes/./images/left-rotate.jpg> <c:/Users/jonle/Git/notes/./images/right-rotate.jpg> <c:/Users/jonle/Git/notes/./images/1d-range.jpg>] (c:/Users/jonle/Git/notes/cs2040.aux) ) 
 Here is how much of TeX's memory you used:
- 25012 strings out of 478994
- 481729 string characters out of 5862207
- 1102669 words of memory out of 5000000
- 41823 multiletter control sequences out of 15000+600000
+ 25021 strings out of 478994
+ 481903 string characters out of 5862207
+ 1110670 words of memory out of 5000000
+ 41831 multiletter control sequences out of 15000+600000
  474103 words of font info for 165 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,5n,116p,495b,1490s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,9n,116p,495b,1490s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on c:/Users/jonle/Git/notes/cs2040.pdf (1 page, 153933 bytes).
+Output written on c:/Users/jonle/Git/notes/cs2040.pdf (1 page, 199982 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 55831 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 55836 words of extra memory for PDF output out of 61914 (max. 10000000)
 
