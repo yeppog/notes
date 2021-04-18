@@ -469,5 +469,24 @@ Walk through the graph prioritising weights, maintaining \texttt{visited[]}.
     \item Recurse until the array is iterated through
 \end{enumerate}
 
+\subsection{Lazy Prize Collection}
+\textbf{Time Complexity:} $O(kE)$.
+\begin{enumerate}
+    \item Subproblem: \texttt{P[v,k]} = maximum prize you can collect starting at v, taking \texttt{k} steps. 
+    \item \texttt{P[v,k] = MAX\{ P[$w_1$, k-1] + w(v, $w_1$), P[$w_2$, k-1] + w(v, $w_2$), $\dots$ \}} where \texttt{v.nbrlist() = \{$w_1$, $w_2$, $w_3$, $\dots$ \}}
+\end{enumerate}
+
+\subsection{Vertex Cover}
+Set of nodes $C$ where every edge is adjacent to at least one node in $C$.
+\begin{enumerate}
+    \item \texttt{S[v,0]} = size of vertex cover in subtree at \texttt{v} if \texttt{v} is NOT covered.
+    \subitem \texttt{S[v,0]} = \texttt{S[$w_1$, 1] + S[$w_2$, 1] + $\dots$}
+    \item \texttt{S[v,1]} = size of vertex cover in subtree at \texttt{v} if \texttt{v} is covered.
+    \subitem \texttt{S[v,1]} = \texttt{1 + min(S[$w_1$, 0], S[$w_1$, 1] + min(S[$w_2$, 0], S[$w_2$, 1]) + $\dots$}
+\end{enumerate}
+
+\subsection{APSP}
+
+
 \end{multicols*}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.16)  18 APR 2021 18:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.16)  18 APR 2021 21:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1372,6 +1372,16 @@ Overfull \hbox (2.52075pt too wide) in paragraph at lines 395--402
 [] 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+[]\T1/jkptt/m/n/8 P[v,k] = MAX{ P[$\OML/jkp/m/it/8 w[]$\T1/jkptt/m/n/8 , k-1] + w(v, $\OML/jkp/m/it/8 w[]$\T1/jkptt/m/n/8 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+\T1/jkptt/m/n/8 P[$\OML/jkp/m/it/8 w[]$\T1/jkptt/m/n/8 , k-1] + w(v, $\OML/jkp/m/it/8 w[]$\T1/jkptt/m/n/8 ), $[] $ } \T1/jkp/m/n/8 (+20) whe-re
+ []
+
 [2 <c:/Users/jonle/OneDrive - National University of Singapore/Modules/CS2040S/Notes/cheatsheet/./images/quickunion.jpg>] (c:/Users/jonle/OneDrive - National University of Singapore/Modules/CS2040S/Notes/cheatsheet/cs2040.aux) ) 
 Here is how much of TeX's memory you used:
  25441 strings out of 478994
@@ -1382,7 +1392,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  113i,9n,116p,564b,1415s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on "c:/Users/jonle/OneDrive - National University of Singapore/Modules/CS2040S/Notes/cheatsheet/cs2040.pdf" (2 pages, 118332 bytes).
+Output written on "c:/Users/jonle/OneDrive - National University of Singapore/Modules/CS2040S/Notes/cheatsheet/cs2040.pdf" (2 pages, 120217 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream

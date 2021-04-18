@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1618743169 "c:/Users/jonle/OneDrive - National University of Singapore/Modules/CS2040S/Notes/cheatsheet/cs2040.tex" "c:/Users/jonle/OneDrive - National University of Singapore/Modules/CS2040S/Notes/cheatsheet/cs2040.pdf" "cs2040" 1618743174
+["pdflatex"] 1618753657 "c:/Users/jonle/OneDrive - National University of Singapore/Modules/CS2040S/Notes/cheatsheet/cs2040.tex" "c:/Users/jonle/OneDrive - National University of Singapore/Modules/CS2040S/Notes/cheatsheet/cs2040.pdf" "cs2040" 1618753661
   "./images/quickunion.jpg" 1618738380 23705 c4383bfdd8c979227f790466f064acb5 ""
-  "c:/Users/jonle/OneDrive - National University of Singapore/Modules/CS2040S/Notes/cheatsheet/cs2040.aux" 1618743173 5564 4e66fe113ef22a47fc3f68ce2b5c783b ""
-  "c:/Users/jonle/OneDrive - National University of Singapore/Modules/CS2040S/Notes/cheatsheet/cs2040.tex" 1618743153 18405 2fb462349c2a702d60057ef396e47239 ""
+  "c:/Users/jonle/OneDrive - National University of Singapore/Modules/CS2040S/Notes/cheatsheet/cs2040.aux" 1618753660 5880 d780ad6042b000cd4f5dc8943711ec85 ""
+  "c:/Users/jonle/OneDrive - National University of Singapore/Modules/CS2040S/Notes/cheatsheet/cs2040.tex" 1618753651 19357 647ebe432fd9949907d21c1e5bae2294 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1618571806 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc" 1618573001 2639 b7bbeb66c016cde6fdcad9263fe54a4a ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1618572245 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -223,12 +223,12 @@
   "c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1618576033 5217717 b43fe545f048dd66fa410792f18dfeaf ""
   "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1618576230 2724596 96c5b2278edf3a4fa496e95eb9b79159 ""
   "c:/texlive/2021/texmf.cnf" 1618575998 713 e69b156964470283e0530f5060668171 ""
-  "cs2040.aux" 1618743173 5564 4e66fe113ef22a47fc3f68ce2b5c783b "pdflatex"
-  "cs2040.tex" 1618743153 18405 2fb462349c2a702d60057ef396e47239 ""
+  "cs2040.aux" 1618753660 5880 d780ad6042b000cd4f5dc8943711ec85 "pdflatex"
+  "cs2040.tex" 1618753651 19357 647ebe432fd9949907d21c1e5bae2294 ""
   "images/quickunion.jpg" 1618738380 23705 c4383bfdd8c979227f790466f064acb5 ""
   (generated)
   "c:/Users/jonle/OneDrive - National University of Singapore/Modules/CS2040S/Notes/cheatsheet/cs2040.pdf"
-  "cs2040.aux"
-  "c:/Users/jonle/OneDrive - National University of Singapore/Modules/CS2040S/Notes/cheatsheet/cs2040.log"
   "cs2040.pdf"
   "cs2040.log"
+  "c:/Users/jonle/OneDrive - National University of Singapore/Modules/CS2040S/Notes/cheatsheet/cs2040.log"
+  "cs2040.aux"
