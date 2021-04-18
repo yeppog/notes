@@ -236,7 +236,7 @@ $g(k)$ must be relatively prime to $m$ for $h(k, i)$ to hit all buckets.
     \verb!String!       &   Iterate through each char, sum the value with an offset. \\
 \end{tabular}
 
-\subsection{Resizing}
+G\subsection{Resizing}
 If $(n == m)$, then $m = 2m$ and if $(n < \frac{m}{4})$, then $m = \frac{m}{2}$. \\
 \begin{definition}
     Operation has amortized cost $T(n)$ if for every integer $k$, the cost of $k$ operations is $\le k T(N)$.
@@ -299,9 +299,53 @@ If $(n == m)$, then $m = 2m$ and if $(n < \frac{m}{4})$, then $m = \frac{m}{2}$.
     \item DFS. Use a stack to explore the maximum depth, then neighbours.
 \end{itemize}
 
+\subsection{Directed Acyclic Graph}
+A topological sorted graph can find shortest paths in $O(E)$ by walking through the graph once.
+\subsubsection{Post-order DFS}
+\begin{itemize}
+    \item Use post-order DFS to add nodes to the set.
+    \item Time Complexity: $O(V+E)$.
+\end{itemize}
+
+\subsubsection{Kahn's Algorithm}
+\begin{itemize}
+    \item Maintain a set of nodes with no incoming edges. Remove edges and add them to the set when a node has no incoming edge. 
+    \item Time Complexity: $O(E log(V))$ or $O(E +V)$.
+\end{itemize}
+
+\subsection{Shortest Paths}
+\subsubsection{Bellman Ford}
+\begin{itemize}
+    \item Relax all edges $V$ times. Can detect negative weight cycles. 
+    \item Time Complexity: $O(EV)$ (Can optimise to terminate early when no weight changes detected). 
+    \item Negative weight cycles can be detected with $|V| + 1$ iterations. To label all negative weight cycles, run for $2|V|$. 
+\end{itemize}
+
+\subsubsection{Dijkstra's}
+\begin{itemize}
+    \item Relax shortest edge using a priority queue.
+    \item Time Complexity: $O(Elog(V))$ (Assumes PQ operations are $log(v)$).
+    \item Each edge is relaxed once and each node is added to the priority queue once.
+\end{itemize}
 
 
 \section{Heaps}
+Binary heap stores inserts nodes from left to right and ensures the maximum height is $O(floor(log(n)))$. \\
+\begin{tabular}{p{2cm} p{4cm}}
+   \verb!insert! & $O(log(n))$ \\
+   \verb!delete! & Swap with min element and \texttt{bubbleDown} min element. $O(log(n))$ \\
+   \verb!decreaseKey! & $O(log(n))$ \\
+   \verb!extractMax!    & $O(1)$ \\
+\end{tabular}\\
+For a lookup array (swap positions when we bubble):
+\begin{tabular}{p{2cm} p{4cm}}
+    \verb!leftChild!    &   $2x+1$ \\
+    \verb!rightChild!   &   $2x+2$  \\
+    \verb!parent!       &   $floor((x-1)/2)$ 
+\end{tabular}
+
+
+
 
 \section{Dynamic Programming}
 \end{multicols*}
