@@ -13,13 +13,26 @@
 \usepackage[t1]{sourcesanspro}
 \usepackage{multicol}
 \usepackage{wrapfig}
-\usepackage[top=0mm,bottom=1mm,left=0mm,right=1mm]{geometry}
+\usepackage[top=5mm,bottom=5mm,left=5mm,right=5mm]{geometry}
 \usepackage[framemethod=tikz]{mdframed}
 \usepackage{microtype}
 \usepackage{pdfpages}
+\usepackage{titlesec}
 
 
 \usepackage{graphicx}
+
+\titleformat*{\section}{\large\bfseries}
+\titleformat*{\subsection}{\normalsize\bfseries}
+\titleformat*{\subsubsection}{\small\bfseries}
+
+\titlespacing*{\section}
+{0pt}{1.5ex plus 0.2ex}{1.5ex plus .2ex}
+\titlespacing*{\subsection}
+{0pt}{1.5ex plus .2ex}{1.5ex plus .2ex}
+\titlespacing*{\subsubsection}
+{0pt}{1.5ex plus .2ex}{1.5ex plus .2ex}
+
 \graphicspath{ {./images} }
 
 \newtheorem{definition}{Definition}[section]
@@ -52,7 +65,7 @@
 
 \begin{document}
 %\footnotesize
-\small
+\footnotesize
 \begin{multicols*}{4}
 \section{Time Complexity}
 {Master's theorem for $T(n) = aT(\frac{n}{b}) + f(n)$ where $a \geq 1$ and $b > 1$} \\
@@ -116,10 +129,10 @@ Operations: $O(log(n))$ / $O(n)$ (balanced)
 \subsection{AVL Tree}
 Maximum height between two children tree is 1. \\
 Operations: $O(log(n))$ \\
-\textbf{Left Rotation:} \\
-\includegraphics[width = 6cm]{left-rotate} \\
-\textbf{Right Rotation:} \\
-\includegraphics[width = 6cm]{right-rotate} \\
+% \textbf{Left Rotation:} \\
+% \includegraphics[width = 6cm]{left-rotate} \\
+% \textbf{Right Rotation:} \\
+% \includegraphics[width = 6cm]{right-rotate} \\
 Insertion Max Rotations: 2 \\
 Deletion Max Rotations: $log(n)$ \\
 Invariant: \texttt{|height(u) - height(v)| < 2} if \texttt{v} and \texttt{u} are sibling nodes. \texttt{|height(u) - height(v)| > 0} if \texttt{u} is the parent node of \texttt{v}.
@@ -161,9 +174,9 @@ Store the maximum value of entire subtree under a node as a parameter. Update \t
 
 \subsection{1D Range Finding}
 All leaves hold the value, each internal node \texttt{v} stores the \texttt{MAX} of any leaf in the left sub-tree. \\
-\begin{center}
-    \includegraphics[width = 4cm]{1d-range}
-\end{center}
+% \begin{center}
+%     \includegraphics[width = 4cm]{1d-range}
+% \end{center}
 \textbf{Operations}: \\
 \begin{tabular}{p{2cm} p{3.5cm}}
     \verb!findSplit!        & Finds the node to start searching. \\
@@ -191,7 +204,7 @@ An (a, b) tree has a bound of $2 \le a \le \frac{b+1}{2}$.\\\\
 \end{tabular} \\\\
 \textbf{Rule 2:} A \textbf{non-leaf node} must have one more child than its number of keys. \\
 \textbf{Rule 3:} All \textbf{leaf nodes} must be at the same depth (from the root). \\
-\begin{tabular}{p{1cm} p{5.5cm}}
+\begin{tabular}{p{0.6cm} p{5.4cm}}
     \verb!search!   & Traverse from the root node and binary search the node array. ($O(log(n))$).\\
     \verb!insert!   & Traverse from the root to find point of insertion. Split if needed ($O(log(n))$).  \\
     \verb!delete!   & Traverse from the root to find node and delete. Sacrifice/merge/split if needed ($O(log(n))$). \\
@@ -236,7 +249,7 @@ $g(k)$ must be relatively prime to $m$ for $h(k, i)$ to hit all buckets.
     \verb!String!       &   Iterate through each char, sum the value with an offset. \\
 \end{tabular}
 
-G\subsection{Resizing}
+\subsection{Resizing}
 If $(n == m)$, then $m = 2m$ and if $(n < \frac{m}{4})$, then $m = \frac{m}{2}$. \\
 \begin{definition}
     Operation has amortized cost $T(n)$ if for every integer $k$, the cost of $k$ operations is $\le k T(N)$.
@@ -259,27 +272,27 @@ If $(n == m)$, then $m = 2m$ and if $(n < \frac{m}{4})$, then $m = \frac{m}{2}$.
 \end{itemize}
 
 \section{Graphs}
-\begin{definition}
-    A graph consists of at least a node, and can consist of edges that connect nodes in the graph.
-\end{definition}
-\begin{definition}
-    A connected graph has all nodes connected by a path.
-\end{definition}
-\begin{definition}
-    The degree of a node is the number of adjacent edges on that node.
-\end{definition}
-\begin{definition}
-    The degree of a graph is the maximum number of adjacent edges in the graph.
-\end{definition}
-\begin{definition}
-    Diameter is the maximum distance between two nodes following the shortest path.
-\end{definition}
-\begin{definition}
-    Star graph has all nodes connected to a central node.
-\end{definition}
-\begin{definition}
-    Clique is a complete graph with diameter $1$ and degree $n-1$.
-\end{definition}
+% \begin{definition}
+    % A graph consists of at least a node, and can consist of edges that connect nodes in the graph.
+% \end{definition}
+% \begin{definition}
+    % A connected graph has all nodes connected by a path.
+% \end{definition}
+% \begin{definition}
+    % The degree of a node is the number of adjacent edges on that node.
+% \end{definition}
+% \begin{definition}
+    % The degree of a graph is the maximum number of adjacent edges in the graph.
+% \end{definition}
+% \begin{definition}
+    % Diameter is the maximum distance between two nodes following the shortest path.
+% \end{definition}
+% \begin{definition}
+    % Star graph has all nodes connected to a central node.
+% \end{definition}
+% \begin{definition}
+    % Clique is a complete graph with diameter $1$ and degree $n-1$.
+% \end{definition}
 \begin{definition}
     A cycle is a connected graph with a loop. It has a diameter $\frac{n}{2}$ or $\frac{n}{2}-1$ and degree $2$.
 \end{definition}
@@ -344,9 +357,117 @@ For a lookup array (swap positions when we bubble):
     \verb!parent!       &   $floor((x-1)/2)$ 
 \end{tabular}
 
+\subsection{Heapify}
+Bubble from leaf upwards, recursively ensured that subtrees are heaps.
+\begin{lstlisting}
+    for (int i = n - 1; i > =0; i--):
+        bubbleDown(i, A) // O(logn)
+\end{lstlisting}
+\textbf{Time Complexity:}
+\begin{align*}
+    \sum_{h=0}^{h = log(n)} \frac{n}{2^h} O(h) 
+    % \le& cn(\frac{1}{2} +\frac{2}{2^2} + \frac{3}{2^3} + \frac{4}{2^4} + ...) \\
+    % \le& cn(\frac{1/2}{1-1/2}^2) \\
+    \le& 2 \cdot O(n)
+\end{align*}
+
+\subsection{HeapSort}
+Extract the max and put it at the back of the HeapArray.
+\begin{lstlisting}
+    for (int i = n -1; i >= 0; i--):
+        A[i] = extractMax(A);
+\end{lstlisting}
+\begin{itemize}
+    \item \textbf{Time Complexity:} $O(nlog(n))$.
+    \item Unstable, inplace, faster than MS, slower than QS, deterministic (always $O(nlog(n))$).
+\end{itemize}
+
+\section{UFDS}
+
+\subsection{QuickFind}
+\textbf{Time Complexity:} Find: $O(1)$ Union: $O(n)$
+\begin{tabular}{p{1cm} p{5.5cm}}
+    \verb!find! &   Check the int array if two items have the same id. \\
+    \verb!union!    &   \texttt{union(p, q)} change all items with id of \texttt{p} to id of \texttt{q}.
+\end{tabular}
+
+\subsection{QuickUnion}
+\textbf{Time Complexity:} Find: $O(n)$ Union: $(n)$
+\begin{tabular}{p{1cm} p{5.5cm}}
+    \verb!find! &   Check the ADT if two items have the same parent id. \\
+    \verb!union!    &   \texttt{union(p, q)} change parent of \texttt{q} to id of \texttt{parent(p)}.
+\end{tabular}
+QuickUnion(1, 4): \\
+\includegraphics[width=7cm]{quickunion}
+
+\subsubsection{Weighted Union}
+\textbf{Time Complexity:} Find: $O(log(n))$ Union: $(log(n))$ \\
+Connect the parent in order of size to ensure the height of tree is $O(log(n))$.
+
+\subsubsection{Path Compression}
+\textbf{Time Complexity:} $O(n + m\alpha(m, n))$. \\
+When \texttt{find} is called, compress each traversed parent to the found root.
+
+\section{MST}
+\textbf{Properties:}
+\begin{enumerate}
+    \item No cycles
+    \item If you cut an MST, both pieces are MSTs.
+    \item For every cycle, the max weight edge is NOT in.
+    \item For every cut, the min weight is in the MST.
+\end{enumerate}
+
+\subsection{Prim's Algorithm}
+\textbf{Time Complexity:} $O(E log(V))$. \\
+Queue all nodes in a PQ. Decrease key for every adjacent edge of dequeued node.
+
+\subsection{Kruskal's Algorithm}
+\textbf{Time Complexity:} $O(E log(V))$. \\
+Sort all edges. Use UFDS, add edges if the two nodes are not in the same set.
+
+\subsection{Boruvka's Algorithm}
+\textbf{Time Complexity:} $O(E log(V))$. \\
+\textbf{Step 1:} Add all minimum adjacent edges. \\
+\textbf{Step 2:} Add minimum edge out of each connected component. Repeat till 1 connected component left.
+
+\subsection{Variants}
+For all edges having weights from \textbf{\{1..10\}}.
+\subsubsection{Kruskal}
+\textbf{Time Complexity:} $O(\alpha E)$.
+\begin{enumerate}
+    \item Put all edges array of linked lists.
+    \item Iterate through all edges and check to union or not.
+\end{enumerate}
+
+\subsubsection{Prim's}
+\textbf{Time Complexity:} $O(V + E) \approx O(E)$.
+\begin{enumerate}
+    \item Use an array of size 10 as PQ, each slot holding a linked list.
+    \item \texttt{decreaseKey} moves node from 1 linked list to another. ($O(E)$).
+\end{enumerate}
+
+\subsubsection{Directed MST}
+Only works for a \textbf{DAG with one "root"}. \\
+Walk through the graph prioritising weights, maintaining \texttt{visited[]}. 
+
+\subsubsection{Steiner (2-approx)}
+\begin{enumerate}
+    \item For every required vertex, calculate the shortest path.
+    \item Construct new graph with the required nodes.
+    \item Run MST and map new edges to original graph.
+\end{enumerate}
 
 
 
 \section{Dynamic Programming}
+
+\subsection{Longest Increasing Subsequence}
+\textbf{Time Complexity:} $O(n^2)$.
+\begin{enumerate}
+    \item Start from the last item.
+    \item Find the maximum outgoing edge and add 1 and store.
+    \item Recurse until the array is iterated through
+\end{enumerate}
+
 \end{multicols*}
 \end{document}
