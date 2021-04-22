@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.25)  22 APR 2021 16:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.25)  22 APR 2021 16:43
 entering extended mode
 **"c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/Github Notes/CS2030S/cs2030s.tex"
 ("c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/Github Notes/CS2030S/cs2030s.tex"
@@ -1298,47 +1298,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 247--249
 [1
 
 {C:/Users/Jonathan/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 5970) in paragraph at lines 299--300
+Underfull \hbox (badness 5970) in paragraph at lines 297--298
 []\T1/jkptt/m/n/8 combiner \T1/jkp/m/n/8 (+20) and \T1/jkptt/m/n/8 ac-cu-mu-la-tor \T1/jkp/m/n/8 (+20) must be com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
 \T1/jkp/m/n/8 (+20) pa-ti-ble -- \T1/jkptt/m/n/8 com-bi-ner.apply(u, ac-cu-mu-la-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
 \T1/jkptt/m/n/8 tor.apply(identity, t)) == ac-cu-mu-la-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
 
-Overfull \hbox (6.69435pt too wide) in paragraph at lines 330--330
+Overfull \hbox (6.69435pt too wide) in paragraph at lines 328--328
 [][][]\T1/jkptt/m/n/8 completedFuture| 
  []
 
 
-Underfull \hbox (badness 7133) in paragraph at lines 335--336
+Underfull \hbox (badness 7133) in paragraph at lines 333--334
 []\T1/jkp/m/n/8 (+20) combine func-ti-on that runs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--340
+Underfull \hbox (badness 10000) in paragraph at lines 326--338
 \T1/jkptt/m/n/8 Thread \T1/jkp/m/n/8 (+20) is a low-level ab-strac-ti-on that is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--340
+Underfull \hbox (badness 10000) in paragraph at lines 326--338
 \T1/jkp/m/n/8 (+20) not ve-ry ea-sy to use, a hig-her le-vel ab-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--340
+Underfull \hbox (badness 10000) in paragraph at lines 326--338
 \T1/jkp/m/n/8 (+20) strac-ti-on would be \T1/jkptt/m/n/8 Com-ple-ta-ble-Fu-ture<T>\T1/jkp/m/n/8 (+20) .
  []
 
