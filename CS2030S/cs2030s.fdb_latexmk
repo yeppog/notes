@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1619066042 "c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/CS2030S/notes/cs2030s.tex" "c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/CS2030S/notes/cs2030s.pdf" "cs2030s" 1619066047
+["pdflatex"] 1619076258 "c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/Github Notes/CS2030S/cs2030s.tex" "c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/Github Notes/CS2030S/cs2030s.pdf" "cs2030s" 1619076263
   "C:/Users/Jonathan/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1606297878 10295786 2f030ddbaa0e63c0956ef5a93f7d7a5e ""
   "C:/Users/Jonathan/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1618759887 175299 708c3924dacd28fc0fefb2b9b4769d1b ""
   "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -33,6 +33,7 @@
   "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/kpfonts/jkpttmsle.tfm" 1204637020 1356 989748bd83195f6f2183cbb5208cfb11 ""
   "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb" 1240294372 32613 e064ce644a24deb273c8f670630798ba ""
   "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbne.pfb" 1240294422 18279 7aad9c053b21deb6ce3ea35c2cdb90d0 ""
+  "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb" 1266994658 29813 d05f8d6ea0d8afa920af22dddafc33f2 ""
   "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb" 1266994682 37692 ff65f49f493de879aca846e1811bfa1f ""
   "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb" 1240295540 35294 e88bb6b7bdd82f594dee041ddea9423c ""
   "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmnc.pfb" 1237137608 23240 cf3ae13e316267835c5214df26dae9a5 ""
@@ -41,6 +42,7 @@
   "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/vf/public/kpfonts/jkpbn8t.vf" 1236004190 1800 bde6e91770b65baf214fcc34f4229391 ""
   "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/vf/public/kpfonts/jkpmit8t.vf" 1236004212 1804 fe65055d8ef06903d74a3f6f34728152 ""
   "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/vf/public/kpfonts/jkpmn7c.vf" 1204637830 948 0ed5db617d744e3cca3bcade1853e77a ""
+  "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/vf/public/kpfonts/jkpmn7t.vf" 1237796068 984 276aff85044bc68260a465c2ce58c070 ""
   "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/vf/public/kpfonts/jkpmn8t.vf" 1236004212 1800 3acf620f6c07a0390a9d216a40a331bc ""
   "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/vf/public/kpfonts/jkpttmn8t.vf" 1204637488 1812 b50baa4195e7ff2d92f7befecf594007 ""
   "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/vf/public/kpfonts/jkpttmsl8t.vf" 1204637482 1812 d52a3012441d2ca70880d74f831ab2da ""
@@ -217,13 +219,13 @@
   "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1419270738 5114 9c1069474ff71dbc47d5006555e352d3 ""
   "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1602241898 2275 d29aca6fd67823551cb07584e3681d5d ""
   "C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1602241898 20688 beaddf14d96104d4bf016523be5395c5 ""
-  "c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/CS2030S/notes/cs2030s.aux" 1619066046 2576 3f012b6cf2bb7c05eb902b5c736133e7 ""
-  "c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/CS2030S/notes/cs2030s.tex" 1619066035 12675 ed390cc561aa7f51ae71a7f5f73f8665 ""
-  "cs2030s.aux" 1619066046 2576 3f012b6cf2bb7c05eb902b5c736133e7 "pdflatex"
-  "cs2030s.tex" 1619066035 12675 ed390cc561aa7f51ae71a7f5f73f8665 ""
+  "c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/Github Notes/CS2030S/cs2030s.aux" 1619076263 3434 b4a3f198897fefce92ef3d54eb537984 ""
+  "c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/Github Notes/CS2030S/cs2030s.tex" 1619076252 14881 89e53a059edc6890d14eb65529bf2143 ""
+  "cs2030s.aux" 1619076263 3434 b4a3f198897fefce92ef3d54eb537984 "pdflatex"
+  "cs2030s.tex" 1619076252 14881 89e53a059edc6890d14eb65529bf2143 ""
   (generated)
   "cs2030s.pdf"
-  "c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/CS2030S/notes/cs2030s.pdf"
-  "c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/CS2030S/notes/cs2030s.log"
-  "cs2030s.aux"
   "cs2030s.log"
+  "c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/Github Notes/CS2030S/cs2030s.pdf"
+  "c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/Github Notes/CS2030S/cs2030s.log"
+  "cs2030s.aux"

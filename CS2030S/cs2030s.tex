@@ -65,6 +65,54 @@
 \footnotesize
 \begin{multicols*}{4}
 
+\section{Liskov's Substitution Principle}
+\begin{definition}
+    Let $\phi(x)$ be a property provable about objects $x$ of type $T$. Then $\phi(x)$ should be true for objects $y$ of type $S$ where $S<:T$.
+\end{definition}
+
+\section{Abstract Classes}
+\begin{definition}
+    A class with abstract methods that cannot be instantiated directly, and has to be extended from.
+\end{definition}
+Abstract classes uses the keyword \texttt{abstract} for its abstract methods.
+
+\section{Interfaces}
+\begin{definition}
+    An interface is a type and models what an entity can do.
+\end{definition}
+If class $C$ implements an interface $I$, $C<:I$ where $C$ is a sub-type of $I$.
+
+\subsection{Impure Interfaces}
+\begin{definition}
+    An interface that has concrete implementations using the \texttt{default} keyword. Classes that implemenet this interface will all have this default method unless it is overidden.
+\end{definition}
+
+
+\section{Wrapper}
+\subsection{Auto-boxing and unboxing}
+\begin{definition}
+    Automatic conversion between wrapper types and primitive types, such as \texttt{Integer} to \texttt{int}.
+\end{definition}
+
+\subsection{Performance}
+Poorer performance as more memory is required to instantiate and collect garbage.
+
+
+\section{Immutability}
+\begin{definition}
+    A variable or class is immutable if it has the \texttt{final} keyword. It disallows mutation or inheritance.
+\end{definition}
+Advantages for immutability:
+\begin{itemize}
+    \item \textbf{Ease of understanding.}
+        \subitem Ensures that there is no mutation along the way when an object is passed around many times.
+    \item \textbf{Enabling safe sharing of objects.}
+        \subitem Objects can be reused without instantiating new objects.
+    \item \textbf{Enables safe sharing of internals}
+        \subitem \texttt{Varargs} or \texttt{T...} allows for the passing of variable arguments to as a parameter. It is as good as passing in an array. 
+    \item \textbf{Enable safe concurrent execution.}
+        \subitem Important when threads are running in parallel to avoid side effects and unintended mutations or an incorrect sequence of mutation to occur.
+\end{itemize}
 \section{Nested Classes}
 \begin{definition}
     A class defined within another containing class.

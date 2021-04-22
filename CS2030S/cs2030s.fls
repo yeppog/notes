@@ -1,7 +1,7 @@
-PWD c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\CS2030S\notes
+PWD c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2030S
 INPUT C:\Users\Jonathan\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\CS2030S\notes\cs2030s.tex
-OUTPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\CS2030S\notes\cs2030s.log
+INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2030S\cs2030s.tex
+OUTPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2030S\cs2030s.log
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -830,10 +830,10 @@ INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\CS2030S\notes\cs2030s.aux
-INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\CS2030S\notes\cs2030s.aux
-INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\CS2030S\notes\cs2030s.aux
-OUTPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\CS2030S\notes\cs2030s.aux
+INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2030S\cs2030s.aux
+INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2030S\cs2030s.aux
+INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2030S\cs2030s.aux
+OUTPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2030S\cs2030s.aux
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\omljkp.fd
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\omljkp.fd
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\omljkp.fd
@@ -893,11 +893,53 @@ INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\j
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8t.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8t.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8t.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn7c.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ot1jkp.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ot1jkp.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ot1jkp.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ot1jkp.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn7t.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn7t.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn7t.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmi.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmi.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmi.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsy.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsy.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsy.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpex.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpex.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpex.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpmia.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpmia.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpmia.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpmia.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmia.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmia.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmia.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsya.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsya.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsya.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsya.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsya.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsya.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsya.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsyb.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsyb.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsyb.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsyb.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsyb.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsyb.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsyb.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsyc.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsyc.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsyc.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsyc.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsyc.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsyc.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsyc.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpexa.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpexa.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpexa.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\t1jkptt.fd
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\t1jkptt.fd
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\t1jkptt.fd
@@ -905,56 +947,14 @@ INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\t1jkptt.
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpttmn8t.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8t.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpttmsl8t.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ot1jkp.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ot1jkp.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ot1jkp.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ot1jkp.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn7t.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn7t.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn7t.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmi.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmi.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmi.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsy.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsy.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsy.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpex.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpex.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpex.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpmia.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpmia.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpmia.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpmia.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmia.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmia.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmia.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsya.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsya.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsya.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsya.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsya.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsya.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsya.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsyb.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsyb.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsyb.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsyb.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsyb.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsyb.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsyb.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsyc.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsyc.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsyc.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ujkpsyc.fd
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsyc.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsyc.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpsyc.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpexa.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpexa.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpexa.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn7c.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8t.tfm
-OUTPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\CS2030S\notes\cs2030s.pdf
+OUTPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2030S\cs2030s.pdf
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn8t.vf
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
@@ -965,11 +965,10 @@ INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\j
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmit8t.vf
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8r.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmite.tfm
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7c.vf
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmnc.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn8t.vf
-INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpttmn8t.vf
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpttmn8r.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpttmne.tfm
@@ -979,19 +978,23 @@ INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\j
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpttmsl8t.vf
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpttmsl8r.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpttmsle.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7c.vf
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmnc.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn8t.vf
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn8t.vf
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
-INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\CS2030S\notes\cs2030s.aux
+INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2030S\cs2030s.aux
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\kpfonts\kpfonts-expert.enc
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbn8a.pfb
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbn8a.pfb
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbne.pfb
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbne.pfb
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmi.pfb
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmi.pfb
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmit8a.pfb
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmit8a.pfb
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmn8a.pfb

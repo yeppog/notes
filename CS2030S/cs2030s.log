@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.25)  22 APR 2021 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.25)  22 APR 2021 15:24
 entering extended mode
-**"c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/CS2030S/notes/cs2030s.tex"
-("c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/CS2030S/notes/cs2030s.tex"
+**"c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/Github Notes/CS2030S/cs2030s.tex"
+("c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/Github Notes/CS2030S/cs2030s.tex"
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-10-27> xparse <2020-03-03> (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -1120,7 +1120,7 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \c@definition=\count330
  (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) ("c:/Users\Jonathan\OneDrive - National University of Singapore\Modules\CS2030S\notes\cs2030s.aux")
+) ("c:/Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2030S\cs2030s.aux")
 \openout1 = `cs2030s.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 64.
@@ -1233,15 +1233,31 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 73.
- (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
-File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 70.
+ (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ot1jkp.fd
+File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `jkp' (encoding: TS1).
+(microtype)             `jkp' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 74.
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 70.
+ (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpmia.fd
+File: ujkpmia.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 70.
+ (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsya.fd
+File: ujkpsya.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 70.
+ (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyb.fd
+File: ujkpsyb.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 70.
+ (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyc.fd
+File: ujkpsyc.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 77.
  (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 )
@@ -1250,110 +1266,95 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/jkptt/m/it' in size <8> not available
-(Font)              Font shape `T1/jkptt/m/sl' tried instead on input line 97.
-LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 134.
- (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ot1jkp.fd
-File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
+(Font)              Font shape `T1/jkptt/m/sl' tried instead on input line 87.
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 107.
+ (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
+File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `jkp' (encoding: OT1).
+(microtype)             `jkp' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 134.
- (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpmia.fd
-File: ujkpmia.fd 2006/08/15 v1.0
-)
-LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 134.
- (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsya.fd
-File: ujkpsya.fd 2006/08/15 v1.0
-)
-LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 134.
- (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyb.fd
-File: ujkpsyb.fd 2006/08/15 v1.0
-)
-LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 134.
- (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyc.fd
-File: ujkpsyc.fd 2006/08/15 v1.0
-)
-Overfull \hbox (6.6039pt too wide) in paragraph at lines 133--141
+
+Overfull \hbox (6.6039pt too wide) in paragraph at lines 181--189
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--152
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
 \T1/jkp/b/n/8 (+20) Right Iden-ti-ty Law: \T1/jkptt/m/n/8 mo-nad.flatMap(x -> Mo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 []\T1/jkptt/m/n/8 functor.map(x -> f(x)).map(x -> g(x)) ==
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--169
+Underfull \hbox (badness 10000) in paragraph at lines 215--217
 
  []
 
 
-Underfull \hbox (badness 5970) in paragraph at lines 219--220
+Underfull \hbox (badness 5970) in paragraph at lines 267--268
 []\T1/jkptt/m/n/8 combiner \T1/jkp/m/n/8 (+20) and \T1/jkptt/m/n/8 ac-cu-mu-la-tor \T1/jkp/m/n/8 (+20) must be com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 \T1/jkp/m/n/8 (+20) pa-ti-ble -- \T1/jkptt/m/n/8 com-bi-ner.apply(u, ac-cu-mu-la-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 \T1/jkptt/m/n/8 tor.apply(identity, t)) == ac-cu-mu-la-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
- []
-
-
-Overfull \hbox (6.69435pt too wide) in paragraph at lines 250--250
-[][][]\T1/jkptt/m/n/8 completedFuture| 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 255--256
-[]\T1/jkp/m/n/8 (+20) combine func-ti-on that runs
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--260
-\T1/jkptt/m/n/8 Thread \T1/jkp/m/n/8 (+20) is a low-level ab-strac-ti-on that is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--260
-\T1/jkp/m/n/8 (+20) not ve-ry ea-sy to use, a hig-her le-vel ab-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--260
-\T1/jkp/m/n/8 (+20) strac-ti-on would be \T1/jkptt/m/n/8 Com-ple-ta-ble-Fu-ture<T>\T1/jkp/m/n/8 (+20) .
  []
 
 [1
 
-{C:/Users/Jonathan/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2] ("c:/Users\Jonathan\OneDrive - National University of Singapore\Modules\CS2030S\notes\cs2030s.aux") ) 
+{C:/Users/Jonathan/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+Overfull \hbox (6.69435pt too wide) in paragraph at lines 298--298
+[][][]\T1/jkptt/m/n/8 completedFuture| 
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 303--304
+[]\T1/jkp/m/n/8 (+20) combine func-ti-on that runs
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--308
+\T1/jkptt/m/n/8 Thread \T1/jkp/m/n/8 (+20) is a low-level ab-strac-ti-on that is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--308
+\T1/jkp/m/n/8 (+20) not ve-ry ea-sy to use, a hig-her le-vel ab-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--308
+\T1/jkp/m/n/8 (+20) strac-ti-on would be \T1/jkptt/m/n/8 Com-ple-ta-ble-Fu-ture<T>\T1/jkp/m/n/8 (+20) .
+ []
+
+[2] ("c:/Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2030S\cs2030s.aux") ) 
 Here is how much of TeX's memory you used:
- 25568 strings out of 479799
- 502949 string characters out of 2868297
- 1119853 words of memory out of 3000000
+ 25602 strings out of 479799
+ 503358 string characters out of 2868297
+ 1124853 words of memory out of 3000000
  41806 multiletter control sequences out of 15000+200000
- 619741 words of font info for 228 fonts, out of 3000000 for 9000
+ 623437 words of font info for 254 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,9n,111p,557b,1342s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbne.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmnc.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on "c:/Users\Jonathan\OneDrive - National University of Singapore\Modules\CS2030S\notes\cs2030s.pdf" (2 pages, 78240 bytes).
+ 108i,9n,111p,564b,1374s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbne.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmnc.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on "c:/Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2030S\cs2030s.pdf" (2 pages, 85858 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  58381 words of extra memory for PDF output out of 61914 (max. 10000000)
 
