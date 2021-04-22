@@ -1,0 +1,324 @@
+\documentclass[10pt,landscape,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+%\usepackage[LY1,T1]{fontenc}
+%\usepackage{frutigernext}
+%\usepackage[lf,minionint]{MinionPro}
+\usepackage{tikz}
+\usetikzlibrary{shapes,positioning,arrows,fit,calc,graphs,graphs.standard}
+\usepackage[nosf]{kpfonts}
+\usepackage[t1]{sourcesanspro}
+\usepackage{multicol}
+\usepackage{wrapfig}
+\usepackage[top=5mm,bottom=5mm,left=5mm,right=5mm]{geometry}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{microtype}
+\usepackage{pdfpages}
+\usepackage{titlesec}
+
+
+\usepackage{graphicx}
+
+\titleformat*{\section}{\large\bfseries}
+\titleformat*{\subsection}{\normalsize\bfseries}
+\titleformat*{\subsubsection}{\small\bfseries}
+
+\titlespacing*{\section}
+{0pt}{1.5ex plus 0.2ex}{1.5ex plus .2ex}
+\titlespacing*{\subsection}
+{0pt}{1.5ex plus .2ex}{1.5ex plus .2ex}
+\titlespacing*{\subsubsection}
+{0pt}{1.5ex plus .2ex}{1.5ex plus .2ex}
+
+\graphicspath{ {./images} }
+
+\newtheorem{definition}{Definition}[section]
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3,
+  basicstyle = \footnotesize
+}
+
+\let\bar\overline
+
+\begin{document}
+\footnotesize
+\begin{multicols*}{4}
+
+\section{Nested Classes}
+\begin{definition}
+    A class defined within another containing class.
+\end{definition}
+\begin{itemize}
+    \item Nested classes \textbf{can} access private fields of the container class.
+    \item Can either be \texttt{static} or \texttt{non-static}.
+    \item Static nested classes are associated with the \textbf{containing class} and can only access static variables and methods.
+    \item \textbf{Qualified State:} A \texttt{this} reference with a prefix of the enclosing class. (e.g \texttt{A.this.x}). 
+\end{itemize}
+
+\subsection{Local Class}
+\begin{definition}
+    Class defined locally within a function.
+\end{definition}
+
+\begin{lstlisting}
+    void sortNames(List<String> names) {
+        class NameComparator implements Comparator<String> {
+            public int compare(String s1, String s2) {
+                return s1.length() - s2.length();
+            }
+        }
+        names.sort(new NameComparator());
+    }
+\end{lstlisting}
+
+\subsection{Variable Capture}
+\begin{definition}
+    Local classes makes a copy of local variables and captures the local variable. Local classes can only access \texttt{final} variables.
+\end{definition}
+
+\subsection{Anonymous Class}
+\begin{definition}
+    A class that is declared and instantiated in a single statement.
+\end{definition}
+
+\begin{lstlisting}
+    names.sort(new Comparator<String>() {
+        public int compare(String s1, String s2) {
+            return s1.length() - s2.length();
+        }
+    });
+\end{lstlisting}
+
+\section{Functions}
+We can refer to functions in classes with the \texttt{::} operator (e.g \texttt{List::sort}).
+\subsection{Pure Functions}
+\begin{itemize}
+    \item A pure function does not cause any side effects. It must \textbf{only} return a value given an input, and do nothing else.
+    \item A pure function must be deterministic. A function must \textbf{always} produce the same output given the same input.
+\end{itemize}
+
+\subsection{Lambda Functions}
+If we use the \texttt{\{\}} brackets after the \texttt{->} arrow, we need to specify which line to \texttt{return}. \\
+There is no need to specify the \texttt{type} when we specify a function interface, such as \texttt{Function<S, T>} or \texttt{BiFunction<S,T,R>}.
+
+\section{Streams}
+\begin{itemize}
+    \item \texttt{Predicate<T>::test}
+    \item \texttt{Supplier<T>::get}
+    \item \texttt{Function<T,R>::apply}
+    \item \texttt{UnaryOp<T>::apply}
+    \item \texttt{BiFunction<S,T,R>::apply}
+\end{itemize}
+\textbf{Stream Operations:} \\
+\begin{tabular}{p{1.5cm}p{4.8cm}}
+    \verb!forEach!  &   Applies a lambda to each element. Terminal. \\
+    \verb!flatMap!  &   Applies a function and transforms into another stream but flattens it.  \\
+    \verb!limit!    &   Returns a trunctated stream with the first \texttt{n} elements. \\
+    \verb!takeWhile!    &   Returns a truncated stream up till the first fails the input predicate. \\
+    \verb!peek!     &   Takes in a consumer and returns a new stream with that operation. \\
+\end{tabular}
+
+\section{Monad}
+\textbf{Laws:}
+\begin{itemize}
+    \item Identity Law
+    \item Associative Law
+\end{itemize}
+
+\subsection{Identity Law}
+\textbf{Left Identity Law:} \texttt{Monad.of(x).flatMap(x -> f(x))} = \texttt{f(x)}. \\
+\textbf{Right Identity Law:} \texttt{monad.flatMap(x -> Monad.of(x))} = \texttt{monad}.
+
+\subsection{Associative Law}
+\texttt{monad.flatMap(x -> f(x)).flatMap(x -> g(x)))} = \texttt{monad.flatMap(x -> f(x).flatMap(y -> g(y)))}.
+
+\subsection{Functors}
+\begin{definition}
+     A functor is a simpler construction than a monad in that it only ensures lambdas can be applied sequentially to the value, without worrying about side information.
+\end{definition}
+\textbf{Laws:}
+\begin{itemize}
+    \item \texttt{functor.map(x -> x) == functor}.
+    \item \texttt{functor.map(x -> f(x)).map(x -> g(x)) == functor.map(x -> g(f(x))}.
+\end{itemize}
+
+\section{Parallel Streams}
+All parallel programs are concurrent, but not all concurrent programs are parallel. \\
+\texttt{parallel()} can be called on streams to parallelise it. The opposite call is \texttt{sequential()}. The latest call overrides all the previous calls.\\
+
+\subsection{Parallelis-ability}
+\subsubsection{Interference}
+\begin{definition}
+    Interference means that one of the stream operations modifies the source of the stream during the execution of the terminal operation.
+\end{definition}
+
+\begin{lstlisting}
+    List<String> list = new ArrayList<>(List.of("Luke", "Leia", "Han"));
+    list.stream()
+        .peek(name -> {
+            if (name.equals("Han")) {
+            list.add("Chewie"); // they belong together
+            }
+        })
+        .forEach(i -> {});
+\end{lstlisting}
+
+\subsubsection{Stateful vs Stateless}
+\begin{definition}
+    A stateful lambda is one where the result depends on any state that might change during the execution of the stream.
+\end{definition}
+
+\begin{lstlisting}
+    Stream.generate(scanner::nextInt)
+        .map(i -> i + scanner.nextInt())
+        .forEach(System.out::println)
+\end{lstlisting}
+
+
+\subsubsection{Side Effects}
+In the code below, \texttt{forEach} modifies the arrayList and an incorrect sequence may arise.
+\begin{lstlisting}
+    List<Integer> list = new ArrayList<>(
+        Arrays.asList(1,3,5,7,9,11,13,15,17,19));
+    List<Integer> result = new ArrayList<>();
+    list.parallelStream()
+        .filter(x -> isPrime(x))
+        .forEach(x -> result.add(x));
+\end{lstlisting}
+\textbf{Solution:} Use thread-safe methods or data structures like \texttt{.collect} or \texttt{CopyOnWriteArrayList<>}.
+\subsubsection{Associativity}
+\texttt{reduce} is parallelisable, but the function must be associative. Consider:
+\begin{lstlisting}
+    Stream.of(1,2,3,4).reduce(1, (x, y) -> 1 * x + y)
+\end{lstlisting}
+\textbf{Rules:}
+\begin{itemize}
+    \item \texttt{combiner.apply(identity, i) == i}
+    \item \texttt{combiner} and \texttt{accumulator} must be associative.
+    \item \texttt{combiner} and \texttt{accumulator} must be compatible -- \texttt{combiner.apply(u, accumulator.apply(identity, t)) == accumulator.apply(u, t)}.
+\end{itemize}
+
+\subsection{Order}
+\begin{itemize}
+    \item \texttt{findFirst}, \texttt{limit} and \texttt{skip} is expensive on an ordered stream as coordination is required to maintain order. \\
+    \item \texttt{unordered()} can be called on streams where order is not important to speed up the parallelisation.
+\end{itemize}
+
+\section{Threads}
+Java has a class \texttt{java.lang.Thread} that can be used to encapsulate a function to run in a seperate thread.
+\begin{lstlisting}
+    new Thread(() -> {
+      for (int i = 1; i < 100; i += 1) {
+        System.out.print("_");
+      }
+    }).start();
+
+    new Thread(() -> {
+      for (int i = 2; i < 100; i += 1) {
+        System.out.print("*");
+      }
+    }).start();
+\end{lstlisting}
+The \texttt{.parallel()} call splits a stream operation into multiple threads. \\
+\texttt{Thread.sleep()} can be called on a thread to add a delay to a thread before it is ready to run again.
+
+
+\section{Async}
+\texttt{Thread} is a low-level abstraction that is not very easy to use, a higher level abstraction would be \texttt{CompletableFuture<T>}.
+\begin{tabular}{p{2cm}p{4cm}}
+    \verb!completedFuture!  &   Creates a task that is completed, returns \texttt{T}. \\
+    \verb!runAsync!         &   Takes in \texttt{Runnable} and returns \texttt{CompletableFuture<Void>}. \\
+    \verb!supplyAsync!      &   Takes in \texttt{Supplier<T>} and returns \texttt{CompletableFuture<T>}. \\
+    \verb!thenApply!        &   Map function that runs when the \texttt{CompletableFuture} instance is completed. \\
+    \verb!thenCompose!      &   flatMap function that runs when the \texttt{CompletableFuture} instance is completed. \\
+    \verb!thenCombine!      &   combine function that runs when the \texttt{CompletableFuture} instance is completed. \\ 
+    \verb!get!              &   Blocks all operations until the given \texttt{CompletableFuture} is completed and returns the value. \\
+    \verb!join!             &   Same as \texttt{get} but no checked exception is thrown. \\
+    \verb!exceptionally!    &   Takes in a function that takes a \texttt{Throwable} and returns a new type \texttt{S}. Returns \texttt{CompletableFuture<S>}. \\
+\end{tabular}
+
+\section{Fork and Join}
+Java has an implementation \texttt{ForkJoinPool} that is fine-tuned for the fork-join model. \\
+It is a parallel divide-and-conquer mode of computation. There is a \texttt{compute} method to implement. The class \texttt{RecursiveTask<T>} supports the methods \texttt{fork}, \texttt{join} and \texttt{compute}.
+\begin{lstlisting}
+    class Summer extends RecursiveTask<Integer> {
+        private static final int FORK_THRESHOLD = 2;
+        private int low;
+        private int high;
+        private int[] array;
+
+        public Summer(int low, int high, int[] array) {
+            this.low = low;
+            this.high = high;
+            this.array = array;
+        }
+
+        @Override
+        protected Integer compute() {
+            // stop splitting into subtask if array is already small.
+            if (high - low < FORK_THRESHOLD) {
+                int sum = 0;
+                for (int i = low; i < high; i++) {
+                sum += array[i];
+                }
+                return sum;
+            }   
+
+            int middle = (low + high) / 2;
+            Summer left = new Summer(low, middle, array);
+            Summer right = new Summer(middle, high, array);
+            left.fork();
+            return right.compute() + left.join();
+        }
+    }
+\end{lstlisting}
+\begin{itemize}
+    \item Each thread has a queue of tasks.
+    \item If a thread is idle, it checks the queue and picks a task at the had and executes it. If the queue is empty, it finds another queue that is non-empty to dequeue from.
+    \item When \texttt{fork} is called, the caller adds itself to the head of the queue 
+    \item When \texttt{join} is called:
+        \subitem If the subtask to join has not been executed, then \texttt{compute} is called on the subtask.
+        \subitem If the subtask is completed, then the result is read and \texttt{join} returns.
+\end{itemize}
+
+\subsection{Order of fork() and join()}
+We should \texttt{join()} the most recently \texttt{fork()}-ed task first since \texttt{ForkJoinPool} adds and removes tasks from the queue in the order in which we call \texttt{fork} and \texttt{join}. \\
+\textbf{Fast Example:}
+\begin{lstlisting}
+    left.fork();
+    right.fork();
+    return right.join() + left.join();
+\end{lstlisting}
+\textbf{Slow Example:}
+\begin{lstlisting}
+    left.fork();
+    right.fork();
+    return left.join() + right.join();
+\end{lstlisting}
+
+
+
+
+\end{multicols*}
+\end{document}
