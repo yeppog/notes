@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.25)  22 APR 2021 12:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.25)  22 APR 2021 16:09
 entering extended mode
-**"c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/Github Notes/CS2040S.tex"
-("c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/Github Notes/CS2040S.tex"
+**"c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/Github Notes/CS2040S/cs2040.tex"
+("c:/Users/Jonathan/OneDrive - National University of Singapore/Modules/Github Notes/CS2040S/cs2040.tex"
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-10-27> xparse <2020-03-03> (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -1120,8 +1120,8 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \c@definition=\count330
  (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) ("c:/Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S.aux")
-\openout1 = `CS2040S.aux'.
+) ("c:/Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S\cs2040.aux")
+\openout1 = `cs2040.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 66.
 LaTeX Font Info:    Trying to load font information for OML+jkp on input line 66.
@@ -1346,58 +1346,109 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--255
 [1
 
 {C:/Users/Jonathan/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 388--393
+Underfull \hbox (badness 10000) in paragraph at lines 391--396
 \T1/jkp/b/n/8 (+20) Time Com-ple-xi-ty: \T1/jkp/m/n/8 (+20) Find: $\OML/jkp/m/it/8 O\OT1/jkp/m/n/8 (+20) (1)$ \T1/jkp/m/n/8 (+20) Uni-on: $\OML/jkp/m/it/8 O\OT1/jkp/m/n/8 (+20) (\OML/jkp/m/it/8 n\OT1/jkp/m/n/8 (+20) )$
  []
 
 
-Overfull \hbox (12.29436pt too wide) in paragraph at lines 388--393
+Overfull \hbox (12.29436pt too wide) in paragraph at lines 391--396
 [] 
  []
 
-<./images/quickunion.jpg, id=16, 644.4075pt x 188.95593pt>
+<./images/quickunion.jpg, id=17, 644.4075pt x 188.95593pt>
 File: ./images/quickunion.jpg Graphic file (type jpg)
 <use ./images/quickunion.jpg>
-Package pdftex.def Info: ./images/quickunion.jpg  used on input line 401.
+Package pdftex.def Info: ./images/quickunion.jpg  used on input line 404.
 (pdftex.def)             Requested size: 199.16928pt x 58.39984pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--402
+Underfull \hbox (badness 10000) in paragraph at lines 398--405
 \T1/jkp/b/n/8 (+20) Time Com-ple-xi-ty: \T1/jkp/m/n/8 (+20) Find: $\OML/jkp/m/it/8 O\OT1/jkp/m/n/8 (+20) (\OML/jkp/m/it/8 n\OT1/jkp/m/n/8 (+20) )$ \T1/jkp/m/n/8 (+20) Uni-on: $\OT1/jkp/m/n/8 (+20) (\OML/jkp/m/it/8 n\OT1/jkp/m/n/8 (+20) )$
  []
 
 
-Overfull \hbox (12.29436pt too wide) in paragraph at lines 395--402
+Overfull \hbox (12.29436pt too wide) in paragraph at lines 398--405
 []
  []
 
 
-Overfull \hbox (2.52075pt too wide) in paragraph at lines 395--402
+Overfull \hbox (2.52075pt too wide) in paragraph at lines 398--405
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
 []\T1/jkptt/m/n/8 P[v,k] = MAX{ P[$\OML/jkp/m/it/8 w[]$\T1/jkptt/m/n/8 , k-1] + w(v, $\OML/jkp/m/it/8 w[]$\T1/jkptt/m/n/8 ),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
 \T1/jkptt/m/n/8 P[$\OML/jkp/m/it/8 w[]$\T1/jkptt/m/n/8 , k-1] + w(v, $\OML/jkp/m/it/8 w[]$\T1/jkptt/m/n/8 ), $[] $ } \T1/jkp/m/n/8 (+20) whe-re
  []
 
-[2 <./images/quickunion.jpg>] ("c:/Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S.aux") ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
+[]\T1/jkptt/m/n/8 S[v,w,$\OML/jkp/m/it/8 P[]$\T1/jkptt/m/n/8 ] = min (S[v,w,$\OML/jkp/m/it/8 P[]$\T1/jkptt/m/n/8 ], S[v,i,$\OML/jkp/m/it/8 P[]$\T1/jkptt/m/n/8 ]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--505
+\T1/jkp/m/n/8 (+20) Change to: \T1/jkptt/m/n/8 S[v,w,$\OML/jkp/m/it/8 P[]$\T1/jkptt/m/n/8 ] = \T1/jkptt/b/n/8 OR \T1/jkptt/m/n/8 (S[v,w,$\OML/jkp/m/it/8 P[]$\T1/jkptt/m/n/8 ],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--515
+[][][]\T1/jkptt/m/n/8 insert
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--516
+[][][]\T1/jkptt/m/n/8 merge
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[][][]\T1/jkptt/m/n/8 extractMax
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
+[][][]\T1/jkptt/m/n/8 delete
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--519
+[][][]\T1/jkptt/m/n/8 updateKey
+ []
+
+
+Overfull \hbox (12.29437pt too wide) in paragraph at lines 513--523
+[] 
+ []
+
+[2 <./images/quickunion.jpg>]
+<./images/minimax.png, id=23, 724.50674pt x 275.8305pt>
+File: ./images/minimax.png Graphic file (type png)
+<use ./images/minimax.png>
+Package pdftex.def Info: ./images/minimax.png  used on input line 535.
+(pdftex.def)             Requested size: 199.16928pt x 75.82626pt.
+
+Overfull \hbox (2.52075pt too wide) in paragraph at lines 535--536
+[] 
+ []
+
+[3 <./images/minimax.png>] ("c:/Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S\cs2040.aux") ) 
 Here is how much of TeX's memory you used:
- 25603 strings out of 479799
- 503282 string characters out of 2868297
- 1054853 words of memory out of 3000000
- 41770 multiletter control sequences out of 15000+200000
- 636176 words of font info for 275 fonts, out of 3000000 for 9000
+ 25645 strings out of 479799
+ 503866 string characters out of 2868297
+ 1064849 words of memory out of 3000000
+ 41781 multiletter control sequences out of 15000+200000
+ 644583 words of font info for 297 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,9n,111p,556b,1415s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on "c:/Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S.pdf" (2 pages, 126677 bytes).
+ 108i,9n,111p,563b,1415s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbit8a.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttbn8a.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on "c:/Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S\cs2040.pdf" (3 pages, 185200 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 70162 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 76823 words of extra memory for PDF output out of 89155 (max. 10000000)
 

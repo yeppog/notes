@@ -1,7 +1,7 @@
-PWD c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes
+PWD c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S
 INPUT C:\Users\Jonathan\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S.tex
-OUTPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S.log
+INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S\cs2040.tex
+OUTPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S\cs2040.log
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -830,10 +830,10 @@ INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S.aux
-INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S.aux
-INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S.aux
-OUTPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S.aux
+INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S\cs2040.aux
+INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S\cs2040.aux
+INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S\cs2040.aux
+OUTPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S\cs2040.aux
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\omljkp.fd
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\omljkp.fd
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\omljkp.fd
@@ -953,9 +953,10 @@ INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\j
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8t.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbit8t.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8t.tfm
-OUTPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S.pdf
+OUTPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S\cs2040.pdf
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn8t.vf
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
@@ -984,6 +985,9 @@ INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\j
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbit8t.vf
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbit8r.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbite.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn8t.vf
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
@@ -996,9 +1000,21 @@ INPUT .\images\quickunion.jpg
 INPUT .\images\quickunion.jpg
 INPUT .\images\quickunion.jpg
 INPUT .\images\quickunion.jpg
-INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S.aux
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpttbn8t.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpttbn8t.vf
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpttbn8r.tfm
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpttbne.tfm
+INPUT .\images\minimax.png
+INPUT images\minimax.png
+INPUT .\images\minimax.png
+INPUT .\images\minimax.png
+INPUT .\images\minimax.png
+INPUT .\images\minimax.png
+INPUT c:\Users\Jonathan\OneDrive - National University of Singapore\Modules\Github Notes\CS2040S\cs2040.aux
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\kpfonts\kpfonts-expert.enc
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbit8a.pfb
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbit8a.pfb
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbn8a.pfb
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbn8a.pfb
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpex.pfb
@@ -1015,5 +1031,7 @@ INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmne.pfb
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpsy.pfb
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpsy.pfb
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpttbn8a.pfb
+INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpttbn8a.pfb
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpttmn8a.pfb
 INPUT C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpttmn8a.pfb
