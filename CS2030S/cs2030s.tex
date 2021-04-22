@@ -55,7 +55,7 @@
   stringstyle=\color{mauve},
   breaklines=true,
   breakatwhitespace=true,
-  tabsize=3,
+  tabsize=2,
   basicstyle = \footnotesize
 }
 
@@ -64,6 +64,37 @@
 \begin{document}
 \footnotesize
 \begin{multicols*}{4}
+
+\section{Encapsulation}
+\begin{definition}
+    The practise of containing different properties of a certain object as class variables.
+\end{definition}
+
+\section{Information Hiding}
+\begin{definition}
+    The practise of hiding variables behind an abstraction barrier using the \texttt{private} keyword.
+\end{definition}
+
+\section{Tell, Don't Ask}
+\begin{definition}
+    The principle where accessors and mutators such as \texttt{get()} and \texttt{set()} are not used.
+\end{definition}
+
+\section{Polymorphism}
+\begin{definition}
+    Dynamic binding occurs when the compile-time type of an object is different from its run-time type.
+\end{definition}
+For example, overriding the \texttt{equals} method of a class allows us to call the new method even when the object's compile-time type is \texttt{Object}.
+\begin{lstlisting}
+    boolean contains(Object array[], Object obj) {
+        for (Object curr : array) {
+            if (curr.equals(obj)) {
+                return true;
+            }
+        }
+        return false;
+    }
+\end{lstlisting}
 
 \section{Liskov's Substitution Principle}
 \begin{definition}
